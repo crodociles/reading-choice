@@ -1,0 +1,26 @@
+.add-book {
+  background-color: lighten($yellow, 20%);
+  font-family: $body-font;
+  h3 {
+    font-size: 25px;
+    padding: 5px;
+  }
+  .flex {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: $body-font;
+    * {
+      margin: 10px;
+      font-weight: 400;
+    }
+  }
+  .add-btn {
+    border: 0;
+    background-color: $red;
+    color: $white;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+.choice {
+    .choice-btn {
+        border: 5px solid lighten($dark-blue, 40%);
+        padding: 20px 60px;
+        font-size: 30px;
+        font-family: $header-font;
+        background-color: $blue;
+        color: $dark-blue;
+        margin: 20px;
+    }
+}
